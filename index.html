@@ -6,6 +6,8 @@
   <title>ProtoTorials Clone</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/all.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./css/funcs.js"></script>
 </head>
 <body>
 
@@ -19,6 +21,7 @@
         </div>
       </div>
 
+      
       <div class="search-bar">
         <input type="text" placeholder="Search">
         <div class="search-icon"><i class="fas fa-search"></i></div>
@@ -28,13 +31,20 @@
         <i class="fas fa-video"></i>
         <i class="fas fa-stream"></i>
         <i class="fas fa-bell"></i>
-        <img src="./img/profile.png" alt="profile-pics">
-
+        <div id="dd" class="wrapper-dropdown-3" tabindex="1">
+          <span><a href="#"><img src="./img/profile.png" alt="profile-pics"></a></span>
+          <ul class="dropdown">
+            <li><a href="#">My Channel</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Log Out</a></li>
+          </ul>
+        </div>
+        <!-- <a href="#"><img src="./img/profile.png" alt="profile-pics"></a> -->
       </div>
     </nav>
-
+    
   </header>
-
+  
   <div id="main-container">
     <div class="left-nav">
       <div class="nav-list">
