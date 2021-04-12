@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ProtoTorials Clone</title>
+  <title>ProtoTorials</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/all.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -17,7 +17,7 @@
       <div class="left-icons">
         <i class="fas fa-bars menu-icon"></i>
         <div class="logo">
-          <a href="#"><i class="fab fa-youtube"></i>ProtoTorials</a>
+          <a href="#"><img src="img/atom.png" style="width:30px;height:30px;">  ProtoTorials</a>
         </div>
       </div>
 
@@ -150,7 +150,7 @@
     <section class="video-section">
       <!-- 1st video -->
       <div class="videos">
-        <div class="thumbnail"><img src="./img/cpp.png" alt="computer"></div>
+        <div class="thumbnail"><a href="videoPage.php"><img src="./img/cpp.png" alt="computer"></a></div>
         <div class="info">
           <div class="user-thumb"><img src="./img/thumb.jpg" alt="up8"></div>
           <div class="title">
