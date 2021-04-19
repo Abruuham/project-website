@@ -150,12 +150,14 @@
     <section class="video-section">
       <!-- 1st video -->
       <div class="videos">
-        <div class="thumbnail"><a href="videoPage.php"><img src="./img/cpp.png" alt="computer"></a></div>
+        <div class="thumbnail"><a href="videoPage.php">
+        <video preload="metadata" width="250px" height = "100%" poster="cppCover.png">
+        </a></div>
         <div class="info">
           <div class="user-thumb"><img src="./img/thumb.jpg" alt="up8"></div>
           <div class="title">
-            <h2 class="main-text">C++ Tutorial for Beginners - Full Course</h2>
-            <p class="sub-text">freeCodeCamp.org<i class="fas fa-check-circle"></i></p>
+            <h2 class="main-text">Map in C++ - GeeksForGeeks Tutorial</h2>
+            <p class="sub-text">GeeksForGeeks<i class="fas fa-check-circle"></i></p>
             <p class="sub-text">5.4M Views . 2 years ago</p>
           </div>
           <div class="hover-icon"><i class="fas fa-ellipsis-v"></i></div>
@@ -163,11 +165,11 @@
       </div>
       <!-- 2nd video -->
       <div class="videos">
-        <div class="thumbnail"><img src="./img/computer.jpg" alt="computer"></div>
+        <div class="thumbnail"><video preload="metadata" width="250px" height = "100%" poster="threeLargest.png"></div>
         <div class="info">
           <div class="user-thumb"><img src="./img/dos.jpg" alt="up8"></div>
           <div class="title">
-            <h2 class="main-text">Map of Computer Science</h2>
+            <h2 class="main-text">C++ Find Largest of Three Values</h2>
             <p class="sub-text">DoS - Domain of Science<i class="fas fa-check-circle"></i></p>
             <p class="sub-text">2.7M Views . 8 months ago</p>
           </div>
@@ -240,6 +242,32 @@
         </div>
       </div>
       <!-- 8th video -->
+      <div class="videos">
+        <div class="thumbnail"><img src="./img/computer.jpg" alt="computer"></div>
+        <div class="info">
+          <div class="user-thumb"><img src="./img/dos.jpg" alt="up8"></div>
+          <div class="title">
+            <h2 class="main-text">Map of Computer Science</h2>
+            <p class="sub-text">DoS - Domain of Science<i class="fas fa-check-circle"></i></p>
+            <p class="sub-text">2.7M Views . 8 months ago</p>
+          </div>
+          <div class="hover-icon"><i class="fas fa-ellipsis-v"></i></div>
+        </div>
+      </div>
+      <!-- 9th video -->
+      <div class="videos">
+        <div class="thumbnail"><img src="./img/computer.jpg" alt="computer"></div>
+        <div class="info">
+          <div class="user-thumb"><img src="./img/dos.jpg" alt="up8"></div>
+          <div class="title">
+            <h2 class="main-text">Map of Computer Science</h2>
+            <p class="sub-text">DoS - Domain of Science<i class="fas fa-check-circle"></i></p>
+            <p class="sub-text">2.7M Views . 8 months ago</p>
+          </div>
+          <div class="hover-icon"><i class="fas fa-ellipsis-v"></i></div>
+        </div>
+      </div>
+      <!-- 10th video -->
       <div class="videos">
         <div class="thumbnail"><img src="./img/computer.jpg" alt="computer"></div>
         <div class="info">
